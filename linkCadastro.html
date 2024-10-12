@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linkCadastro</title>
+</head>
+
+<body>
+
+    <button id="voltar" class="button button" onclick=location.href='BancoJS.html'>voltar</button>
+    <div style="text-align:center">
+
+        <p class="breakAll narrow"></p>
+        <p class="breakAll narrow"></p>
+
+        <label class="label" for="idtexto">Cliente:</label>
+        <input class="imput" id="Cliente" type="text" name="input" value="" placeholder="Cliente" />
+
+        <p class="breakAll narrow"></p>
+        <p class="breakAll narrow"></p>
+
+        <label class="label" for="idtexto">Agencia: </label>
+        <input class="imput" id="Agencia" type="text" name="input" value="" placeholder="Agencia" />
+
+        <p class="breakAll narrow"></p>
+        <p class="breakAll narrow"></p>
+
+        <label class="label" for="idtexto">Conta: </label>
+        <input class="imput" id="Conta" type="text" name="input" value="" placeholder="Conta" />
+
+        <p class="breakAll narrow"></p>
+        <p class="breakAll narrow"></p>
+
+        <label class="label" for="idtexto">Valor: </label>
+        <input class="imput" id="Valor" type="text" name="input" value="" placeholder="Valor" />
+
+        <p class="breakAll narrow"></p>
+        <button id="Confirmar" class="button button2">Confirmar</button>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+        .imput {
+            box-shadow: 3px 3px;
+            border-radius: 3px;
+            justify-content: center;
+            outline: none;
+        }
+
+        .imput::placeholder {
+            color: rgb(32, 32, 32);
+        }
+
+        .label {
+            color: white;
+            padding: 8px;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        body {
+            background-color: rgb(63, 63, 63);
+            font-family: 'roboto';
+            margin: 0;
+        }
+
+        button {
+            text-align: center;
+            background-color: rgb(219, 214, 214);
+            border-radius: 7px;
+            padding: 15px, 20px;
+            font-size: 20px;
+            width: 100px;
+            height: 45px;
+            box-shadow: 3px 3px;
+            font-weight: 800;
+            cursor: pointer;
+
+        }
+
+        .button2 {
+            text-align: center;
+            background-color: rgb(219, 214, 214);
+            font-size: 20px;
+            width: 150px;
+            height: 50px;
+            box-shadow: 3px 3px;
+            cursor: pointer;
+
+        }
+    </style>
+
+
+    <div class="card-cadastro"></div>
+
+    <script src="linkCadastro.js" defer></script>
+</body>
+
+</html>
